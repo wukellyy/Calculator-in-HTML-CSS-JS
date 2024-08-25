@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const display = document.getElementById('display');
-    const operators = ['%', '/', '*', '-', '+', '='];
+    const operators = ['%', '/', '*', '+', '='];
     
     function appendToDisplay(val) {
         if ((display.value === '' || display.value === 'Error') && operators.includes(val)) return;
